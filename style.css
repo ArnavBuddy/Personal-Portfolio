@@ -1,0 +1,194 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.top{
+    background-color: black;
+    height: 100vh;
+}
+
+.flying{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+}
+
+.neon{
+    display: block;
+    margin-right: auto;
+    width: 70%;
+    height: 300px;
+}
+
+.text{
+    color: white;
+    text-align: center;
+}
+
+.head1{
+    font-size: 75px;
+    font-family: cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.para1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: underline ;
+}
+
+.about{
+    background-color: white;
+    margin-top: 50px;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1{
+    height: 200px;
+    width: 200px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 50px;
+    padding: 100px;
+}
+
+.head2{
+    display: flex;
+    justify-content: center;
+}
+
+.content1{
+    width: 300px;
+}
+
+.content2{
+    width: 300px;
+}
+
+.skill1{
+    display: flex;
+    justify-content: center;
+    gap: 10px 30px;
+}
+
+.skill2{
+    display: flex;
+    justify-content: center;
+    gap: 10px 30px;
+}
+
+.bottom{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 50px;
+}
+
+.myButton {
+color: rgb(255, 255, 255); font-size: 30px; line-height: 30px; padding: 15px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: radial-gradient(rgb(164, 45, 75) 0%, rgb(203, 112, 112) 37%, rgb(117, 0, 0) 100%); box-shadow: rgb(0, 0, 0) 0px 0px 27px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #A42D4B; }
+.myButton:active {
+background: #750000; }
+
+footer{
+    padding: 50px;
+    height: 100px;
+    margin-bottom: 0;
+    background-color: red;
+}
+
+.foot{
+    display: flex;
+    gap: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seperator-wrapper {
+  width: 100%;  
+  .seperator {
+    width: 100%;
+    height: 5px;
+    animation: rotate 3s infinite linear;
+    -webkit-animation: rotate 3s infinite linear;
+  }
+  
+}
+
+@-webkit-keyframes rotate {
+  from {
+    background-position: -3000px;
+  }
+  to { 
+    background-position: 0px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    background-position: -3000px;
+  }
+  to { 
+    background-position: 0px;
+  }
+}
+
+.gradient {
+  background: rgb(48,255,144); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(48,255,144,1) 0%, rgba(237,45,237,1) 25%, rgba(201,152,38,1) 50%, rgba(48,255,230,1) 75%, rgba(48,255,144,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(48,255,144,1)), color-stop(25%,rgba(237,45,237,1)), color-stop(50%,rgba(201,152,38,1)), color-stop(75%,rgba(48,255,230,1)), color-stop(100%,rgba(48,255,144,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(48,255,144,1) 0%,rgba(237,45,237,1) 25%,rgba(201,152,38,1) 50%,rgba(48,255,230,1) 75%,rgba(48,255,144,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(48,255,144,1) 0%,rgba(237,45,237,1) 25%,rgba(201,152,38,1) 50%,rgba(48,255,230,1) 75%,rgba(48,255,144,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(48,255,144,1) 0%,rgba(237,45,237,1) 25%,rgba(201,152,38,1) 50%,rgba(48,255,230,1) 75%,rgba(48,255,144,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(48,255,144,1) 0%,rgba(237,45,237,1) 25%,rgba(201,152,38,1) 50%,rgba(48,255,230,1) 75%,rgba(48,255,144,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ff90', endColorstr='#30ff90',GradientType=1 ); /* IE6-9 */
+
+}
+
+.cool
+{
+    font-family: Raleway;
+    margin: 0;
+	text-align: center;
+}
+
+.cool a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+div.highlightTextIn a
+{
+    color: rgba(0, 0, 0, 0.4); 
+}
+
+div.highlightTextIn a:before
+{
+    transform: scale(1.2);
+} 
